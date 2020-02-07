@@ -2,9 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Learning diary</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<h1>Learning diary</h1>
+<form action="" method="post">
+    <p>id-number: <input type="text" name="idNumber"></p>
+    <p>Topic title: <input type="text" name="title"></p>
+    <p>Description: <input type="text" name="description"></p>
+    <p>Additional source: <input type="text" name="source"></p>
+    <p>Is the Topic comleted:
+        <label><input type="radio" name="completed" value="yes" checked> YES
+        </label>
+        <label><input type="radio" name="completed" value="no">NO</label></p>
+    <p>Creation Date: <input type="text" name="creation"></p>
+    <p>Completion Date: <input type="text" name="completion"></p>
+    <p><input type="submit" value="Add Topic"></p>
+    <p><input type="submit" value="List all topics"></p>
 
+</form>
 </body>
 </html>
